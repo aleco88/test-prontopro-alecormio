@@ -1,0 +1,676 @@
+/***********************/
+/* General site assets */
+/***********************/
+
+* {
+    outline: none;
+}
+
+body {
+    font-family: 'Lucida Grande', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    border: 0.5px solid #547286 !important;
+    opacity: 0.1;
+    margin: 0 0 15px 0 !important;
+}
+
+h1 a {
+    color: #547286 !important;
+    cursor: pointer;
+}
+
+
+/*******************************/
+/* Top side site (logo & menu) */
+/*******************************/
+
+
+/* HEADER */
+
+header {
+    width: 100%;
+    padding-top: 15px;
+    float: left;
+    clear: right;
+    background: white;
+}
+
+.logo {
+    float: left;
+}
+
+nav.main-navigation {
+    float: right;
+    clear: right;
+}
+
+nav.main-navigation ul {
+    float: right;
+    clear: right;
+}
+
+nav.main-navigation ul li {
+    float: left;
+    clear: right;
+    margin-right: 20px;
+}
+
+nav.main-navigation ul li a {
+    line-height: 2.5;
+}
+
+nav.main-navigation ul li a {
+    color: #666;
+}
+
+nav.main-navigation ul li:nth-child(2) a {
+    color: #7590b8;
+    font-weight: 700;
+}
+
+nav.main-navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+nav.main-navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.btn-prof {
+    margin-top: 0;
+    background: #4a7487 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 3px solid #1e3642 !important;
+    
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-prof:hover {
+    background: #d4c750 !important;
+    color: #5a717d !important;
+    border-bottom: 3px solid #e2d372 !important;
+}
+
+/* TOP IMAGE AREA & SECONDARY NAV */
+.logo-banner {
+    background: #767979;
+    width: 100%;
+}
+
+.logo-banner img {
+    margin: 0 auto;
+}
+
+nav.secondary-navigation {
+    float: left;
+    clear: right;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+nav.secondary-navigation ul {
+    text-transform: uppercase;
+    padding: 0;
+}
+
+nav.secondary-navigation ul li {
+    float: left;
+    clear: right;
+    width: 50%;
+    background: #5a717d;
+    
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+nav.secondary-navigation ul li a {
+    padding-top: 12px;
+}
+
+nav.secondary-navigation ul li a:hover {
+    text-decoration: none;
+}
+
+.current-selection {
+    background: #d4c750;
+    color: #5a717d !important;
+}
+
+nav.secondary-navigation ul li:first-child a {
+    text-align: right;
+    padding-right: 10%;
+    padding-left: 0;
+}
+
+nav.secondary-navigation ul li:last-child a {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 0;
+}
+
+nav.secondary-navigation ul li a {
+    color: white;
+    width: 100%;
+    display: block;
+    height: 50px;
+}
+
+nav.secondary-navigation ul li:hover {
+    background: #d4c750;
+    color: #5a717d;
+}
+
+
+/***********************/
+/* CENTRAL BANNER AREA */
+/***********************/
+
+.img-background {
+    background: url(../img/main-banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    float: left;
+    clear: right;
+    width: 100%;
+}
+
+ul.about-us {
+    padding: 0;
+}
+
+ul.about-us li {
+    background: rgba(255,255,255,0.8);
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+ul.about-us li div img {
+    margin-left: 20px;
+}
+
+ul.about-us li:nth-child(2) {
+    margin: 20px auto 20px auto;
+}
+
+article.about-us-article h1 {
+    font-size: 3rem;
+    padding: 5px 50px 25px 50px;
+    line-height: 1.2;
+}
+
+.write-us {
+    background: #f4f4f5;
+    min-height: 55px;
+    float: left;
+    clear: right;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.write-us p {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    color: #7d7d7d;
+}
+
+.write-us p a {
+    color: #547286;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/*************/
+/* NEWS AREA */
+/*************/
+
+main div div ul {
+    padding: 0;
+}
+
+main div div ul.about-us li {
+    background: rgba(255,255,255,0.8);
+    width: 75%;
+    margin: 0 auto;
+}
+
+.news-container {
+    float: left;
+    clear: right;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.news-container ul.news-container-list {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.news-container ul.news-container-list li {
+    width: 100%;
+    float: left;
+    clear: right;
+}
+
+.news-container ul.news-container-list li div {
+    background: #ebf6fa;
+    margin-bottom: 15px;
+}
+
+.description, .newspaper-logo, .data {
+    float: left;
+    clear: right;
+}
+
+div.data p {
+    text-align: center;
+    line-height: 1;
+    margin: 10px 0;
+}
+
+div.data p span {
+    display: inherit;
+}
+
+div.data p span:first-child {
+    font-size: 1.5rem;
+}
+
+div.data p span:nth-child(2) {
+    font-size: 3rem;
+}
+
+div.data p span:last-child {
+    font-size: 1.3rem;
+}
+
+.newspaper-logo img {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 0;
+}
+
+.newspaper-logo h2 {
+    text-align: center;
+    padding: 8px;
+    margin: 15px 0;
+}
+
+.description h1 {
+    font-size: 2rem;
+    padding: 7px 15px 21px 15px;
+    color: #547286;
+    font-weight: 400;
+}
+
+.description h1 span {
+    color: #aea540;
+}
+
+.video-wrapper {
+    position: relative;
+	padding-bottom: 56.25%; /* calcolo per farlo andare in 16:9 */
+	padding-top: 25px;
+	height: 0;
+    margin-top: 70px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 80%;
+    margin: 0 10%;
+}
+
+.paginator {
+    display: block;
+    float: left;
+    clear: right;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.paginator-mobile-xs {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+}
+
+.paginator-mobile-xs > ul.paginator-list {
+    position: relative;
+    left: 50%;
+}
+
+.paginator ul.paginator-list {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.paginator ul.paginator-list li, .paginator-mobile-xs ul.paginator-list li {
+    float: left;
+    clear: right;
+    display: inline-block;
+    padding: 10px;
+    background: #f4f4f4;
+    color: #547286;
+    font-weight: 500;
+    
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.paginator ul.paginator-list li:hover, .paginator-mobile-xs ul.paginator-list li:hover {
+    background: #ebf6fa;
+}
+
+.paginator-mobile-xs ul.paginator-list li {
+    margin-right: 10px;
+}
+
+.paginator-mobile-xs ul.paginator-list li:last-child {
+    margin-right: 0;
+}
+
+.paginator ul.paginator-list li:first-child, .paginator ul.paginator-list li:nth-child(2) {
+    margin-right: 10px;
+}
+
+.paginator ul.paginator-list li:nth-child(10), .paginator ul.paginator-list li:last-child {
+    margin-left: 10px;
+}
+
+
+/**********/
+/* FOOTER */
+/**********/
+
+footer {
+    width: 100%;
+    float: left;
+    clear: right;
+    background: #4a4a4a;
+}
+
+.footer-menu {
+    padding-top: 20px;
+    min-height: 240px !important;
+}
+
+footer h4 {
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.footer-navigation ul {
+    padding-left: 0;
+}
+
+.footer-navigation ul li {
+    padding: 10px 0;
+}
+
+.footer-navigation ul li a {
+    color: #989898;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.footer-menu p {
+    color: #989898;
+    font-size: 1.4rem;
+    padding: 10px 0;
+}
+
+
+/*************************/
+/* RESPONSIVE MEDIAQUERY */
+/*************************/
+
+
+/* LARGE DISPLAYS */
+@media only screen and (min-width : 993px) {
+    
+    /*NEWS LIST BOTTOM*/
+    .news-container ul.news-container-list li div.data {
+        width: 10%;
+        margin-right: 1%;
+    }
+
+    .news-container ul.news-container-list li div.newspaper-logo {
+        width: 25%;
+        margin-right: 1%;
+    }
+
+    .news-container ul.news-container-list li div.description {
+        width: 63%;
+    }
+    
+     /* ABOUT US NEWSPAPERS LOGO */
+    
+    ul.about-us li div img {
+        height: 50px;
+    }
+    
+    .paginator-mobile-xs {
+        display: none;
+    }
+}
+
+/* MEDIUM DISPLAYS */
+@media only screen and (max-width : 992px) {
+    
+    /*NEWS LIST BOTTOM*/
+    .news-container ul.news-container-list li div.data {
+        width: 15%;
+        margin-right: 1%;
+    }
+
+    .news-container ul.news-container-list li div.newspaper-logo {
+        width: 30%;
+        margin-right: 1%;
+    }
+
+    .news-container ul.news-container-list li div.description {
+        width: 53%;
+    }
+    
+     /* ABOUT US NEWSPAPERS LOGO */
+    
+    ul.about-us li div img {
+        height: 40px;
+    }
+    
+    .paginator-mobile-xs {
+        display: none;
+    }
+
+}
+
+/* MEDIUM DEVICES - TABLETS */
+@media only screen and (max-width : 768px) {
+    
+    /*NEWS LIST BOTTOM*/
+    .news-container ul.news-container-list li div.data {
+        width: 25%;
+        margin-right: 1%;
+    }
+
+    .news-container ul.news-container-list li div.newspaper-logo {
+        width: 73%;
+        margin-left: 1%;
+        margin-right: 0 !important;
+    }
+
+    .news-container ul.news-container-list li div.description {
+        width: 100%;
+    }
+    
+     /* ABOUT US NEWSPAPERS LOGO */
+    
+    ul.about-us li div img {
+        height: 34px;
+    }
+    
+    .paginator {
+        display: none;
+    }
+    
+    .paginator-mobile-xs {
+        display: block;
+    }
+    
+    .description {
+        margin-bottom: 80px !important;
+    }
+    
+    footer {
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width : 660px) {
+    
+    .logo {
+        width: 100% !important;
+    }
+    
+    .logo img {
+        margin: 0 auto;
+    }
+    
+    .main-navigation {
+        width: 100% !important;
+        margin-top: 25px;
+        float: right !important;
+        position: relative !important;
+        left: -50%;
+        text-align: left;
+    }
+
+    .main-navigation > ul {
+        position: relative;
+        left: 38% !important;
+        padding: 0 !important;
+    }
+    
+    footer {
+        text-align: center;
+    }
+}
+
+
+/* SMALL DEVICES - SMARTPHONES */ 
+@media only screen and (max-width : 480px) {
+
+    .logo-banner {
+        padding: 20px !important;
+    }
+    
+    /*NEWS LIST BOTTOM*/
+    .news-container ul.news-container-list li div.data {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .news-container ul.news-container-list li div.newspaper-logo {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .news-container ul.news-container-list li div.description {
+        width: 100%;
+    }
+    
+    /* ABOUT US NEWSPAPERS LOGO */
+    
+    ul.about-us li div img {
+        height: 28px;
+    }
+
+    .paginator {
+        display: none;
+    }
+    
+    .paginator-mobile-xs {
+        display: block;
+    }
+    
+    .description {
+        margin-bottom: 80px !important;
+    }
+    
+    .main-navigation {
+        margin-top: 25px;
+        float: right !important;
+        position: relative !important;
+        left: -50%;
+        text-align: left;
+    }
+
+    .main-navigation > ul {
+        position: relative;
+        left: 50% !important;
+        padding: 0 !important;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+}
+
+
+/* EX-SMALL DEVICES - RETINA OPT. SMARTPHONES */ 
+@media only screen and (max-width : 380px) {
+    
+    .main-navigation {
+        margin-top: 25px;
+        float: right !important;
+        position: relative !important;
+        left: -50%;
+        text-align: left;
+    }
+
+    .main-navigation > ul {
+        position: relative;
+        margin-left: 28% !important;
+        padding: 0 !important;
+    }
+    
+}
+
+
+
