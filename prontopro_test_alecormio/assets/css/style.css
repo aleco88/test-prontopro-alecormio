@@ -412,6 +412,7 @@ div.data p span:last-child {
 
 footer {
     width: 100%;
+    padding-top: 20px;
     float: left;
     clear: right;
     background: #4a4a4a;
